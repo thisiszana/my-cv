@@ -3,7 +3,7 @@ import { Icon } from '@iconify/react';
 
 export default function ExperienceItem({ title, company, date, bullets, index }) {
   return (
-    <div className="flex gap-6">
+    <div className="flex gap-3">
       {/* Timeline */}
       <div className="flex flex-col items-center">
         {/* Timeline Dot */}
@@ -18,12 +18,12 @@ export default function ExperienceItem({ title, company, date, bullets, index })
       </div>
 
       {/* Content */}
-      <div className="flex-1 pb-6">
+      <div className="flex-1 flex flex-col gap-1">
         <div className="flex items-start justify-between">
           <h4 className="font-bold text-gray-900">{title}</h4>
         </div>
-        <p className="text-gray-600 text-sm mb-1">{company}</p>
-        <div className="flex items-center gap-1 mb-3">
+        <p className="text-gray-600 text-sm ">{company}</p>
+        <div className="flex items-center gap-1">
           <Icon icon={icons.calendar} className="w-4 h-4" />
           <p className="text-gray-500 text-xs">{date}</p>
         </div>
