@@ -1,12 +1,11 @@
 import { projects } from '@/constant';
 import { Icon } from '@iconify/react';
+import Title from './Title';
 
 export default function ProjectsSection() {
   return (
     <section>
-      <h3 className="text-lg font-semibold text-gray-900 mb-4 pb-2 border-b border-gray-300">
-        Projects
-      </h3>
+      <Title>Projects</Title>
       <div className="space-y-4">
         {projects.map((project, index) => (
           <div key={index}>
