@@ -6,8 +6,8 @@ import Sidebar from './Sidebar';
 
 export default function ResumeLayout() {
   return (
-    <div className="grid lg:grid-cols-[65%_35%] gap-8">
-      <div className="space-y-5">
+    <div className="grid lg:grid-cols-[65%_35%] gap-5">
+      <div className="space-y-3">
         <SummarySection />
         <ExperienceSection />
         <ProjectsSection />
