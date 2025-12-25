@@ -1,15 +1,8 @@
+import { achievements } from '@/constant';
 import { Icon } from '@iconify/react';
 import Title from './Title';
-import { icons } from '@/constant';
 
 export default function AchievementsSection() {
-  const achievements = [
-    { id: 1, achievement: 'Clean code & best practices', icon: icons.star },
-    { id: 2, achievement: 'Modern development workflows', icon: icons.code },
-    { id: 3, achievement: 'Intuitive user experiences', icon: icons.experience },
-    { id: 4, achievement: 'Continuous learning mindset', icon: icons.learning },
-  ];
-
   return (
     <section>
       <Title>Achievements</Title>
