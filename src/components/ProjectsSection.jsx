@@ -8,8 +8,8 @@ export default function ProjectsSection() {
       <Title>Projects</Title>
       <div className="space-y-3">
         {projects.map(project => (
-          <div key={project.id}>
-            <div className="flex items-start justify-between mb-1">
+          <div key={project.id} className="flex flex-col gap-2">
+            <div className="flex items-start justify-between">
               <h4 className="font-bold text-gray-900">{project.name}</h4>
               <a
                 href={project.demo}
@@ -20,7 +20,7 @@ export default function ProjectsSection() {
                 <Icon icon="mdi:open-in-new" className="w-4 h-4" />
               </a>
             </div>
-            <p className="text-gray-600 text-sm mb-2">{project.description}</p>
+            <p className="text-gray-600 text-sm">{project.description}</p>
             <div className="flex flex-wrap gap-1.5">
               {project.tech.split(', ').map((tech, techIndex) => (
                 <span
