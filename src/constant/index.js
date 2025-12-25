@@ -95,6 +95,13 @@ export const icons = {
   email: 'mdi:email',
 };
 
+export const achievements = [
+  { id: 1, achievement: 'Clean code & best practices', icon: icons.star },
+  { id: 2, achievement: 'Modern development workflows', icon: icons.code },
+  { id: 3, achievement: 'Intuitive user experiences', icon: icons.experience },
+  { id: 4, achievement: 'Continuous learning mindset', icon: icons.learning },
+];
+
 export const experience = [
   {
     id: 1,
