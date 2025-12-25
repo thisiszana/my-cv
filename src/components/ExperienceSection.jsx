@@ -3,20 +3,22 @@ import ExperienceItem from './ExperienceItem';
 import Title from './Title';
 
 export default function ExperienceSection() {
+  const sortedExperience = experience.sort((a, b) => a.priority - b.priority);
+
   return (
     <section>
       <Title>Experience</Title>
       <div className="space-y-6">
-        {experience
-          .sort((a, b) => a.priority - b.priority)
-          .map(exp => (
-            <ExperienceItem
-              title={exp.title}
-              company={exp.company}
-              date={exp.date}
-              bullets={exp.bullets}
-            />
-          ))}
+        {sortedExperience.map((exp, index) => (
+          <ExperienceItem
+            key={index}
+            title={exp.title}
+            company={exp.company}
+            date={exp.date}
+            bullets={exp.bullets}
+            index={index}
+          />
+        ))}
       </div>
     </section>
   );
