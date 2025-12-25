@@ -10,7 +10,7 @@ export default function ProjectsSection() {
       <div className="space-y-3">
         {projects.map(project => (
           <div key={project.id} className="flex flex-col gap-1">
-            <div className="flex items-start justify-between">
+            <div className="flex justify-between items-center">
               <h4 className="font-bold text-gray-900">{project.name}</h4>
               <Link
                 href={project.demo}
