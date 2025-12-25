@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-    <header className="mb-8">
+    <header>
       <div className="flex gap-3">
         <Image
           src="/images/zana-profile.JPG"
