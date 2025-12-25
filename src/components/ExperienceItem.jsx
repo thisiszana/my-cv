@@ -1,3 +1,6 @@
+import { icons } from '@/constant';
+import { Icon } from '@iconify/react';
+
 export default function ExperienceItem({ title, company, date, bullets, index }) {
   return (
     <div className="flex gap-6">
@@ -20,7 +23,10 @@ export default function ExperienceItem({ title, company, date, bullets, index })
           <h4 className="font-bold text-gray-900">{title}</h4>
         </div>
         <p className="text-gray-600 text-sm mb-1">{company}</p>
-        <p className="text-gray-500 text-xs mb-3">{date}</p>
+        <div className="flex items-center gap-1 mb-3">
+          <Icon icon={icons.calendar} className="w-4 h-4" />
+          <p className="text-gray-500 text-xs">{date}</p>
+        </div>
         <ul className="space-y-1.5 text-xs font-bold text-gray-700">
           {bullets.map((bullet, bulletIndex) => (
             <li key={bulletIndex} className="flex items-start">
