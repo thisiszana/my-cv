@@ -83,10 +83,13 @@ export const summary = {
 };
 
 export const icons = {
+  learning: 'eos-icons:machine-learning-outlined',
+  experience: 'arcticons:amex-experiences',
   location: 'mingcute:location-fill',
   calendar: 'stash:data-date-solid',
   star: 'solar:star-bold-duotone',
   phone: 'mingcute:phone-fill',
+  code: 'mingcute:code-fill',
   telegram: 'logos:telegram',
   linkedin: 'mdi:linkedin',
   email: 'mdi:email',
