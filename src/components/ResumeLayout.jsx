@@ -11,7 +11,6 @@ export default function ResumeLayout() {
         <SummarySection />
         <ExperienceSection />
         <ProjectsSection />
-        <EducationSection />
       </div>
       <Sidebar />
     </div>
