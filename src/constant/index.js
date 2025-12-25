@@ -18,36 +18,58 @@ export const skills = [
 
 export const projects = [
   {
+    id: 1,
+    name: 'Optisan',
+    demo: 'https://optisan.ir/',
+    description:
+      'Design and development of a modern, advanced wholesale eyewear e-commerce platform, featuring a powerful admin dashboard that streamlines operations, improves efficiency, and reduces staffing requirements.',
+    tech: 'React, Next.js, TypeScript, Redux-Toolkit, MUI, React-Query, Tailwind, Chart.js',
+  },
+  {
+    id: 2,
+    name: 'Modinast',
+    demo: 'https://modinast.com/',
+    description:
+      'Design and development of the “Medinast” online store, specializing in apparel and personal care products, with a focus on user experience, efficient product management, and scalable online sales processes.',
+    tech: 'React, Next.js, TypeScript, ZOD',
+  },
+  {
+    id: 3,
     name: 'Zedkala Admin Panel',
     demo: 'https://zedkala-admin-panel.vercel.app/',
     description: 'Modern admin dashboard with role-based access, charts, and product management.',
     tech: 'React, Next.js, Redux, Charts',
   },
   {
+    id: 4,
     name: 'Zedkala Shop',
     demo: 'https://zedkala-shop.vercel.app/',
     description: 'E-commerce shop with Next.js, authentication, and shopping cart flow.',
     tech: 'Next.js, Auth, Shopping Cart',
   },
   {
+    id: 5,
     name: 'Sorme Shop',
     demo: 'https://sorme-shop.vercel.app/',
     description: 'Responsive cosmetics store with smooth UI/UX and product filtering.',
     tech: 'React, UI/UX, Filtering',
   },
   {
+    id: 6,
     name: 'Fullstack Real Estate',
     demo: 'https://fullstack-real-estate-pi.vercel.app/',
     description: 'Property listing platform with search, filtering, and authentication.',
     tech: 'Fullstack, Search, Auth',
   },
   {
+    id: 7,
     name: 'CRM Blue',
     demo: 'https://fullstack-crm-blue.vercel.app/',
     description: 'CRM dashboard with task management and analytics.',
     tech: 'CRM, Analytics, Dashboard',
   },
   {
+    id: 8,
     name: 'Portfolio Website',
     demo: 'https://portfolio-thisiszana.vercel.app/',
     description: 'Portfolio showcasing projects and skills with modern animations.',
