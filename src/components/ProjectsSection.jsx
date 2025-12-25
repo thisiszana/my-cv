@@ -6,9 +6,9 @@ export default function ProjectsSection() {
   return (
     <section>
       <Title>Projects</Title>
-      <div className="space-y-4">
-        {projects.map((project, index) => (
-          <div key={index}>
+      <div className="space-y-3">
+        {projects.map(project => (
+          <div key={project.id}>
             <div className="flex items-start justify-between mb-1">
               <h4 className="font-bold text-gray-900">{project.name}</h4>
               <a
