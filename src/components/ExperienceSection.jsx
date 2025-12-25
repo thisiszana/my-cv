@@ -11,7 +11,7 @@ export default function ExperienceSection() {
       <div className="space-y-6">
         {sortedExperience.map((exp, index) => (
           <ExperienceItem
-            key={index}
+            key={exp.id}
             title={exp.title}
             company={exp.company}
             date={exp.date}
