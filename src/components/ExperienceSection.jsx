@@ -7,7 +7,7 @@ export default function ExperienceSection() {
 
   return (
     <section>
-      <Title>Experience</Title>
+      <Title titleClassName="mb-3">Experience</Title>
       <div className="space-y-6">
         {sortedExperience.map((exp, index) => (
           <ExperienceItem
