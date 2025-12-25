@@ -1,11 +1,10 @@
 import { skills } from '@/constant';
+import Title from './Title';
 
 export default function SkillsSection() {
   return (
     <section>
-      <h3 className="text-lg font-semibold text-gray-900 mb-4 pb-2 border-b border-gray-300">
-        Skills
-      </h3>
+      <Title>Skills</Title>
       <div className="flex flex-wrap gap-2">
         {skills.map((skill, index) => (
           <span
@@ -19,4 +18,3 @@ export default function SkillsSection() {
     </section>
   );
 }
-
