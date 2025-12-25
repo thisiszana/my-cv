@@ -62,6 +62,7 @@ export const summary = {
 
 export const icons = {
   location: 'mingcute:location-fill',
+  calendar: 'stash:data-date-solid',
   phone: 'mingcute:phone-fill',
   telegram: 'logos:telegram',
   linkedin: 'mdi:linkedin',
