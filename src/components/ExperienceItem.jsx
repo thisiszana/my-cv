@@ -1,7 +1,7 @@
 export default function ExperienceItem({ title, company, date, bullets }) {
   return (
     <div>
-      <div className="flex items-start justify-between mb-1">
+      <div className="flex items-start justify-between">
         <h4 className="font-bold text-gray-900">{title}</h4>
       </div>
       <p className="text-gray-600 text-sm mb-1">{company}</p>
