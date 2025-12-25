@@ -1,6 +1,7 @@
 import { projects } from '@/constant';
 import { Icon } from '@iconify/react';
 import Title from './Title';
+import Link from 'next/link';
 
 export default function ProjectsSection() {
   return (
@@ -11,14 +12,14 @@ export default function ProjectsSection() {
           <div key={project.id} className="flex flex-col gap-1">
             <div className="flex items-start justify-between">
               <h4 className="font-bold text-gray-900">{project.name}</h4>
-              <a
+              <Link
                 href={project.demo}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:text-blue-700"
               >
                 <Icon icon="mdi:open-in-new" className="w-4 h-4" />
-              </a>
+              </Link>
             </div>
             <p className="text-gray-600 text-xs">{project.description}</p>
             <div className="flex flex-wrap gap-1">
