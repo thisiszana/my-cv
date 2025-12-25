@@ -72,7 +72,7 @@ export const icons = {
 export const experience = [
   {
     id: 1,
-    priority: 1,
+    priority: 2,
     title: 'Junior Front-End Developer',
     company: '',
     date: 'Sep 2023 - January 2025',
@@ -85,7 +85,7 @@ export const experience = [
   },
   {
     id: 2,
-    priority: 2,
+    priority: 1,
     title: 'Front-End Developer',
     company: 'Codenight',
     date: 'Jan 2024 - Present',
