@@ -5,7 +5,7 @@ export default function SkillsSection() {
   return (
     <section>
       <Title>Skills</Title>
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap gap-1">
         {skills.map((skill, index) => (
           <span
             key={index}
