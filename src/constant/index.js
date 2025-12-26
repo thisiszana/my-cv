@@ -1,21 +1,3 @@
-export const skills = [
-  { name: 'HTML', icon: icons.html, id: 1 },
-  { name: 'CSS', icon: icons.css, id: 2 },
-  { name: 'JavaScript', icon: icons.javascript, id: 3 },
-  { name: 'TypeScript', icon: icons.typescript2, id: 4 },
-  { name: 'React', icon: icons.react, id: 5 },
-  { name: 'Next.js', icon: icons.nextjs, id: 6 },
-  { name: 'React Query', icon: icons.react_query, id: 7 },
-  { name: 'Tailwind CSS', icon: icons.tailwind, id: 8 },
-  { name: 'Material UI', icon: icons.material_UI, id: 9 },
-  { name: 'Git', icon: icons.git, id: 10 },
-  { name: 'GitHub', icon: icons.github, id: 11 },
-  { name: 'REST APIs', icon: icons.api, id: 12 },
-  { name: 'Redux Toolkit', icon: icons.redux, id: 13 },
-  { name: 'Responsive Design', icon: icons.responsive, id: 14 },
-  { name: 'Performance Optimization', icon: icons.performance, id: 15 },
-];
-
 export const icons = {
   performance: 'streamline-ultimate:performance-increase-bold',
   responsive: 'streamline-ultimate:responsive-design-bold',
@@ -45,6 +27,24 @@ export const icons = {
   api: 'eos-icons:api',
   email: 'mdi:email',
 };
+
+export const skills = [
+  { name: 'HTML', icon: icons.html, id: 1 },
+  { name: 'CSS', icon: icons.css, id: 2 },
+  { name: 'JavaScript', icon: icons.javascript, id: 3 },
+  { name: 'TypeScript', icon: icons.typescript2, id: 4 },
+  { name: 'React', icon: icons.react, id: 5 },
+  { name: 'Next.js', icon: icons.nextjs, id: 6 },
+  { name: 'React Query', icon: icons.react_query, id: 7 },
+  { name: 'Tailwind CSS', icon: icons.tailwind, id: 8 },
+  { name: 'Material UI', icon: icons.material_UI, id: 9 },
+  { name: 'Git', icon: icons.git, id: 10 },
+  { name: 'GitHub', icon: icons.github, id: 11 },
+  { name: 'REST APIs', icon: icons.api, id: 12 },
+  { name: 'Redux Toolkit', icon: icons.redux, id: 13 },
+  { name: 'Responsive Design', icon: icons.responsive, id: 14 },
+  { name: 'Performance Optimization', icon: icons.performance, id: 15 },
+];
 
 export const projects = [
   {
