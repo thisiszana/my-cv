@@ -10,7 +10,7 @@ export default function SkillsSection() {
         {skills.map(skill => (
           <div
             key={skill.id}
-            className="flex items-center gap-1 p-1 text-xs font-bold text-gray-700 bg-gray-100 rounded"
+            className="flex items-center gap-1 p-1 text-xs font-bold text-gray-700 bg-gray-100 print:bg-gray-100 rounded"
           >
             <Icon icon={skill.icon} className="h-3 w-3" />
             <span>{skill.name}</span>
