@@ -46,6 +46,17 @@ export const skills = [
   { name: 'Performance Optimization', icon: icons.performance, id: 15 },
 ];
 
+export const languages = [
+  {
+    id: 1,
+    title: 'English',
+    reading: 'Good',
+    writing: 'Good',
+    speaking: 'Weak',
+    listening: 'Relatively Good',
+  },
+];
+
 export const projects = [
   {
     id: 1,
