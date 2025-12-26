@@ -12,6 +12,7 @@ export default function Header() {
           width={200}
           height={200}
           className="w-28 h-fit rounded-lg"
+          alt="Zana Amanallhy"
         />
         <div className="flex flex-col gap-3">
           <h1 className="text-4xl font-bold text-gray-900">Zana Amanallhy</h1>
