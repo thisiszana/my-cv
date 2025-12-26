@@ -1,5 +1,6 @@
 import AchievementsSection from './AchievementsSection';
 import EducationSection from './EducationSection';
+import LanguageSection from './LanguageSection';
 import SkillsSection from './SkillsSection';
 
 export default function Sidebar() {
@@ -8,6 +9,7 @@ export default function Sidebar() {
       <AchievementsSection />
       <SkillsSection />
       <EducationSection />
+      <LanguageSection />
     </div>
   );
 }
