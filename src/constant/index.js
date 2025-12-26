@@ -102,7 +102,7 @@ export const achievements = [
   {
     id: 2,
     achievement:
-      'Reviewed and refactored the project using a component-oriented approach, reducing potential errors and bugs, while significantly improving my ability to learn and adopt new concepts.',
+      'Reviewed and refactored the project as a component-oriented approach, reducing potential errors and bugs, while significantly improving my ability to learn and adopt new concepts.',
     icon: icons.code,
   },
   {
