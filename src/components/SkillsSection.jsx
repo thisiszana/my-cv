@@ -9,7 +9,7 @@ export default function SkillsSection() {
         {skills.map((skill, index) => (
           <span
             key={index}
-            className="px-2.5 py-1 text-xs font-medium text-gray-700 bg-gray-100 rounded"
+            className="px-2 py-1 text-xs font-bold text-gray-700 bg-gray-100 rounded"
           >
             {skill}
           </span>
