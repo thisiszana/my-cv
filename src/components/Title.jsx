@@ -4,7 +4,7 @@ export default function Title({ children, titleClassName }) {
   return (
     <h3
       className={twMerge(
-        'text-lg font-black text-gray-900 pb-1 border-b-4 border-black mb-3',
+        'text-base font-black text-gray-900 pb-1 border-b-2 border-black mb-3',
         titleClassName,
       )}
     >
