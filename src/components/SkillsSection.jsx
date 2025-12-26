@@ -1,18 +1,20 @@
 import { skills } from '@/constant';
 import Title from './Title';
+import { Icon } from '@iconify/react';
 
 export default function SkillsSection() {
   return (
     <section>
       <Title>Skills</Title>
       <div className="flex flex-wrap gap-1">
-        {skills.map((skill, index) => (
-          <span
-            key={index}
-            className="px-2 py-1 text-xs font-bold text-gray-700 bg-gray-100 rounded"
+        {skills.map(skill => (
+          <div
+            key={skill.id}
+            className="flex items-center gap-0.5 px-2 py-1 text-xs font-bold text-gray-700 bg-gray-100 rounded"
           >
-            {skill}
-          </span>
+            <Icon icon={skill.icon} className="h-3 w-3" />
+            <span>{skill.name}</span>
+          </div>
         ))}
       </div>
     </section>
