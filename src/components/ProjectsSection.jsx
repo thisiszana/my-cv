@@ -7,9 +7,12 @@ export default function ProjectsSection() {
   return (
     <section>
       <Title>Projects</Title>
-      <div className="space-y-3">
+      <div>
         {projects.map((project, index) => (
-          <div key={project.id} className="flex gap-3">
+          <div
+            key={project.id}
+            className="flex gap-3 border-b border-dashed border-gray-400 pb-3 mb-1 last:border-none"
+          >
             {/* Timeline */}
             <div className="flex flex-col items-center">
               {/* Timeline Dot */}
@@ -53,4 +56,3 @@ export default function ProjectsSection() {
     </section>
   );
 }
-
