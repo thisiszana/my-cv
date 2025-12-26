@@ -1,12 +1,11 @@
-import SummarySection from './SummarySection';
 import ExperienceSection from './ExperienceSection';
 import ProjectsSection from './ProjectsSection';
-import EducationSection from './EducationSection';
+import SummarySection from './SummarySection';
 import Sidebar from './Sidebar';
 
 export default function ResumeLayout() {
   return (
-    <div className="grid lg:grid-cols-[65%_35%] gap-5">
+    <div className="grid lg:grid-cols-[65%_35%] gap-5 print:grid-cols-[65%_35%]">
       <div className="space-y-3">
         <SummarySection />
         <ExperienceSection />
@@ -16,4 +15,3 @@ export default function ResumeLayout() {
     </div>
   );
 }
-
