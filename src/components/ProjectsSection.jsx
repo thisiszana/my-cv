@@ -38,12 +38,14 @@ export default function ProjectsSection() {
                   <Icon icon="mdi:open-in-new" className="w-4 h-4" />
                 </Link>
               </div>
-              <p className="text-gray-600 text-xs font-bold">{project.description}</p>
+              <p className="text-gray-600 text-xs print:text-[10px] font-bold">
+                {project.description}
+              </p>
               <div className="flex flex-wrap gap-1">
                 {project.tech.split(', ').map((tech, techIndex) => (
                   <span
                     key={techIndex}
-                    className="p-1 text-xs font-bold text-gray-600 bg-gray-100 rounded"
+                    className="p-1 text-xs print:text-[10px] font-bold text-gray-600 bg-gray-100 rounded"
                   >
                     {tech}
                   </span>

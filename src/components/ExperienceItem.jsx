@@ -25,9 +25,9 @@ export default function ExperienceItem({ title, company, date, bullets, index })
         <p className="text-gray-600 text-sm ">{company}</p>
         <div className="flex items-center gap-1">
           <Icon icon={icons.calendar} className="w-4 h-4" />
-          <p className="text-gray-500 text-xs">{date}</p>
+          <p className="text-gray-500 text-xs print:text-[10px]">{date}</p>
         </div>
-        <ul className="space-y-1.5 text-xs font-bold text-gray-700">
+        <ul className="space-y-1.5 text-xs print:text-[10px] font-bold text-gray-700">
           {bullets.map((bullet, bulletIndex) => (
             <li key={bulletIndex} className="flex items-start">
               <span className="mr-2">•</span>

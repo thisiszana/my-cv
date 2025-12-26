@@ -7,9 +7,9 @@ export default function LanguageSection() {
       <Title>Language</Title>
       <div className="space-y-3">
         {languages.map(language => (
-          <div key={language.id} className="*:text-gray-600 *:text-xs">
+          <div key={language.id} className="*:text-gray-600 *:text-xs print:text-[10px]">
             <h4 className="font-bold !text-gray-900 text-sm mb-2">{language.title}</h4>
-            <div className="space-y-1 *:text-xs *:font-black *:flex *:items-center *:gap-1">
+            <div className="space-y-1 *:text-xs print:text-[10px] *:font-black *:flex *:items-center *:gap-1">
               <p>
                 <span>Reading:</span>
                 <span className="font-semibold">{language.reading}</span>

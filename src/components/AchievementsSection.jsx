@@ -11,7 +11,9 @@ export default function AchievementsSection() {
           <div key={ach.id} className="flex items-start gap-2">
             <Icon icon={ach.icon} className="w-4 h-4 text-blue-600 flex-shrink-0" />
             <div>
-              <h4 className="font-bold text-xs text-gray-900">{ach.achievement}</h4>
+              <h4 className="font-bold text-xs print:text-[10px] text-gray-900">
+                {ach.achievement}
+              </h4>
             </div>
           </div>
         ))}
