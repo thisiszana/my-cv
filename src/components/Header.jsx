@@ -20,7 +20,7 @@ export default function Header() {
             <div className="flex items-center gap-3">
               <Link
                 href="mailto:zana80.dev@gmail.com"
-                className="flex items-center gap-1.5 hover:text-blue-600"
+                className="flex items-center gap-1.5 hover:text-blue-600 text-xs font-bold"
               >
                 <Icon icon={icons.email} className="w-4 h-4 text-blue-600" />
                 <span>zana80.dev@gmail.com</span>
@@ -29,7 +29,7 @@ export default function Header() {
                 href="https://linkedin.com/in/thisiszana"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-1.5 hover:text-blue-600"
+                className="flex items-center gap-1.5 hover:text-blue-600 text-xs font-bold"
               >
                 <Icon icon={icons.linkedin} className="w-4 h-4 text-blue-600" />
                 <span>linkedin.com</span>
@@ -38,18 +38,18 @@ export default function Header() {
                 href="https://t.me/zana80"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-1.5 hover:text-blue-600"
+                className="flex items-center gap-1.5 hover:text-blue-600 text-xs font-bold"
               >
                 <Icon icon={icons.telegram} className="w-4 h-4 text-blue-600" />
                 <span>Telegram</span>
               </Link>
             </div>
             <div className="flex items-center gap-3">
-              <div className="flex items-center gap-1.5 hover:text-blue-600 cursor-default">
+              <div className="flex items-center gap-1.5 hover:text-blue-600 cursor-default text-xs font-bold">
                 <Icon icon={icons.phone} className="w-4 h-4 text-blue-600" />
                 <span>+98 918 985 8531</span>
               </div>
-              <div className="flex items-center gap-1.5 hover:text-blue-600 cursor-default">
+              <div className="flex items-center gap-1.5 hover:text-blue-600 cursor-default text-xs font-bold">
                 <Icon icon={icons.location} className="w-4 h-4 text-blue-600" />
                 <span>Tehran / Sanandaj</span>
               </div>
