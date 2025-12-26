@@ -85,9 +85,11 @@ export const summary = {
 export const icons = {
   learning: 'eos-icons:machine-learning-outlined',
   experience: 'arcticons:amex-experiences',
+  typescript: 'lineicons:typescript',
   location: 'mingcute:location-fill',
   calendar: 'stash:data-date-solid',
   star: 'solar:star-bold-duotone',
+  lamp: 'cuida:lamp-on-outline',
   phone: 'mingcute:phone-fill',
   code: 'mingcute:code-fill',
   telegram: 'logos:telegram',
@@ -97,9 +99,24 @@ export const icons = {
 
 export const achievements = [
   { id: 1, achievement: 'Clean code & best practices', icon: icons.star },
-  { id: 2, achievement: 'Modern development workflows', icon: icons.code },
-  { id: 3, achievement: 'Intuitive user experiences', icon: icons.experience },
-  { id: 4, achievement: 'Continuous learning mindset', icon: icons.learning },
+  {
+    id: 2,
+    achievement:
+      'Reviewed and refactored the project using a component-oriented approach, reducing potential errors and bugs, while significantly improving my ability to learn and adopt new concepts.',
+    icon: icons.code,
+  },
+  {
+    id: 3,
+    achievement:
+      'Leveraged TypeScript for strong type safety, enabling early detection and resolution of issues during development even with minor backend changes.',
+    icon: icons.typescript,
+  },
+  {
+    id: 4,
+    achievement:
+      'Significantly improved problem-solving skills through hands-on development and debugging challenges.',
+    icon: icons.lamp,
+  },
 ];
 
 export const experience = [
