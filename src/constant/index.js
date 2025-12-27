@@ -15,6 +15,7 @@ export const icons = {
   react: 'skill-icons:typescript',
   git: 'material-icon-theme:git',
   lamp: 'cuida:lamp-on-outline',
+  security: 'ic:sharp-security',
   html: 'akar-icons:html-fill',
   phone: 'mingcute:phone-fill',
   javascript: 'bi:javascript',
@@ -44,6 +45,7 @@ export const skills = [
   { name: 'Redux Toolkit', icon: icons.redux, id: 13 },
   { name: 'Responsive Design', icon: icons.responsive, id: 14 },
   { name: 'Performance Optimization', icon: icons.performance, id: 15 },
+  { name: 'class-validator', icon: icons.security, id: 16 },
 ];
 
 export const languages = [
