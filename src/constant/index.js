@@ -151,7 +151,7 @@ export const experience = [
   {
     id: 1,
     priority: 2,
-    title: 'Junior Front-End Developer',
+    title: 'Front-End Developer',
     company: '',
     date: 'Sep 2023 - January 2025',
     bullets: [
